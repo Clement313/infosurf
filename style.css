@@ -1,0 +1,46 @@
+label{
+    color: white;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-deck{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 17px;
+}
+
+
+
+.analog-clock{
+    width:140px;
+    height:140px;
+}
+
+#clock-face{
+    stroke:black;
+    stroke-width:1px;
+    fill:rgb(148, 78, 148);
+}
+
+#h-hand, #m-hand, #s-hand, #s-tail{
+    stroke:white;
+    stroke-linecap:round;
+}
+
+#h-hand{
+    stroke-width:3px;
+}
+
+#m-hand{
+    stroke-width:2px;
+}
+
+#s-hand{
+    stroke-width:1px;
+}
+
+.time-text{
+    text-align:center;
+}
+
